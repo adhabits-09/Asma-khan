@@ -125,8 +125,8 @@
         .reel-card{flex:0 0 320px;height:570px;border-radius:15px;overflow:hidden;box-shadow:var(--shadow);background:#000;scroll-snap-align:start;}
         .reel-player{width:100%;height:100%;border:0;border-radius:15px;}
 
-        .feedback-track{display:flex;gap:15px;overflow-x:auto;padding:8px 4px 16px;scroll-snap-type:x proximity;}
-        .feedback-card{flex:0 0 250px;aspect-ratio:3/4;border-radius:15px;overflow:hidden;box-shadow:var(--shadow);position:relative;scroll-snap-align:start;transition:all .3s;}
+        .feedback-track{display:flex;flex-wrap:wrap;gap:15px;justify-content:center;padding:8px 4px 16px;}
+        .feedback-card{flex:0 0 220px;aspect-ratio:3/4;border-radius:15px;overflow:hidden;box-shadow:var(--shadow);position:relative;transition:all .3s;}
         .feedback-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-hover);}
         .feedback-card img{width:100%;height:100%;object-fit:cover;display:block;}
         .feedback-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent, rgba(136,14,79,0.85));padding:16px;color:#fff;opacity:0;transition:opacity .3s;}
@@ -163,7 +163,7 @@
             section{padding:40px 0;}
             .hero-section{padding:50px 0 30px;}
             .reel-card{flex:0 0 78vw;height:139vw;}
-            .feedback-card{flex:0 0 72vw;}
+            .feedback-card{flex:0 0 44vw;}
             .counter{font-size:1.6rem;}
             .open-any{width:100%;justify-content:center;}
             h1.display-3{font-size:2rem;}
